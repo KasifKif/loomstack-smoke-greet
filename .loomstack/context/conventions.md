@@ -1,0 +1,1 @@
+- Focus on implementing just the `greet` function and its test, per the 'one function per PR' rule.

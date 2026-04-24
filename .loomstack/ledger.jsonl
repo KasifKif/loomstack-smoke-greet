@@ -1,0 +1,5 @@
+{"timestamp": "2026-04-24T06:18:07.162599+00:00", "task_id": "GR-001", "tier": "code_worker", "cost_usd": 0.0, "token_count": 937, "event_type": "proposed", "model": "", "prompt_tokens": 0, "completion_tokens": 0}
+{"timestamp": "2026-04-24T06:18:26.674919+00:00", "task_id": "GR-001", "tier": "planner", "cost_usd": 0.0037712500000000003, "token_count": 0, "event_type": "charge", "model": "", "prompt_tokens": 0, "completion_tokens": 0}
+{"timestamp": "2026-04-24T06:18:59.364004+00:00", "task_id": "GR-002", "tier": "researcher", "cost_usd": 0.00022920000000000001, "token_count": 0, "event_type": "charge", "model": "", "prompt_tokens": 0, "completion_tokens": 0}
+{"timestamp": "2026-04-24T06:18:59.364846+00:00", "task_id": "GR-002", "tier": "researcher", "cost_usd": 0.00022920000000000001, "token_count": 1029, "event_type": "proposed", "model": "", "prompt_tokens": 0, "completion_tokens": 0}
+{"timestamp": "2026-04-24T06:19:22.062308+00:00", "task_id": "GR-002", "tier": "planner", "cost_usd": 0.0025250000000000003, "token_count": 0, "event_type": "charge", "model": "", "prompt_tokens": 0, "completion_tokens": 0}
