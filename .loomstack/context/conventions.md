@@ -1,0 +1,5 @@
+- Keep diffs tiny
+- One function per PR
+- Stdlib only
+- app.py is a single file
+- Tests in tests/test_app.py
