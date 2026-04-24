@@ -3,3 +3,5 @@
 - Stdlib only
 - app.py is a single file
 - Tests in tests/test_app.py
+- The failed research task (GR-002) is non-blocking; proceed with implementation.
+- Create `app.py` with the `greet` function signature as the next step.

@@ -38,3 +38,22 @@ instructions: |
 - app.py is a single file
 - Tests in tests/test_app.py
 
+
+<!-- Planner note GR-002 @ 2026-04-24T04:54:05.730363+00:00 -->
+<## Task: GR-003 Create `app.py` and add the `greet` function
+---
+objective: Create the main application file and a function to be tested, as a foundation for writing tests.
+prerequisites:
+  - GR-001 is complete.
+deliverables:
+  - file_create: app.py
+  - code: Add a placeholder `greet` function to `app.py`. It can `pass` or return a dummy value.
+conventions:
+  - Keep diffs tiny.
+  - One function per PR.
+>
+
+<!-- conventions from GR-002 -->
+- The failed research task (GR-002) is non-blocking; proceed with implementation.
+- Create `app.py` with the `greet` function signature as the next step.
+

@@ -1,2 +1,3 @@
 {"timestamp": "2026-04-24T04:52:22.535169+00:00", "task_id": "GR-001", "tier": "code_worker", "status": "failed", "cost_usd": 0.0, "token_count": 0}
 {"ts": "2026-04-24T04:53:26.752425+00:00", "tier": "researcher", "task_id": "GR-002", "usd": 0.00029729999999999996, "model": "", "tokens_in": 0, "tokens_out": 0, "type": "charge"}
+{"timestamp": "2026-04-24T04:53:41.788597+00:00", "task_id": "GR-002", "tier": "code_worker", "status": "failed", "cost_usd": 0.0, "token_count": 0}
