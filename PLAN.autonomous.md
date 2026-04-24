@@ -21,3 +21,9 @@ instructions: |
   4. Write a pytest test function called `test_greet` that asserts `greet("world")` returns `"hi world"`.
 >
 
+
+<!-- Planner note GR-002 @ 2026-04-24T05:26:09.227744+00:00 -->
+<!-- conventions from GR-002 -->
+- Adding a `.gitignore` is a good first step.
+- Research notes can inform subsequent coding tasks.
+

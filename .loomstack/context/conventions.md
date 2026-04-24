@@ -1,0 +1,2 @@
+- Adding a `.gitignore` is a good first step.
+- Research notes can inform subsequent coding tasks.
