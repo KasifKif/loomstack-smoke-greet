@@ -23,3 +23,18 @@ description: |
 <!-- conventions from GR-002 -->
 - Keep changes minimal, one function at a time.
 
+
+<!-- Planner note GR-003 @ 2026-04-25T01:47:34.216313+00:00 -->
+<## Task: GR-004 Create tests/test_app.py and add a unit test for the greet function.
+path: tests/test_app.py
+action: create
+content: |
+  from app import greet
+
+  def test_greet():
+      assert greet("World") == "Hello, World!"
+##>
+
+<!-- conventions from GR-003 -->
+- Tests go in tests/test_app.py, use pytest.
+
