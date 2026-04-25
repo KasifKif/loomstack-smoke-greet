@@ -28,3 +28,23 @@ hints:
 <!-- conventions from GR-001 -->
 - The 'Keep diffs tiny' convention suggests breaking down the failed 'scaffold' task into smaller steps, like creating the file first.
 
+
+<!-- Planner note GR-001 @ 2026-04-25T01:30:12.147614+00:00 -->
+## Task: GR-002 Create app.py with a greet function stub
+plan:
+  - Create a new file named `app.py`.
+  - Inside `app.py`, define a function `greet()` that takes no arguments.
+  - The `greet()` function should return the string "Hello, World!".
+
+## Task: GR-003 Create tests/test_app.py with a unit test for greet
+plan:
+  - Create a new directory named `tests` if it doesn't exist.
+  - Inside `tests`, create a new file named `test_app.py`.
+  - In `test_app.py`, import the `greet` function from `app`.
+  - Write a test function, `test_greet`, that asserts `greet()` returns "Hello, World!".
+
+<!-- conventions from GR-001 -->
+- Keep diffs tiny; one PR for the function, a separate PR for its tests.
+- All application code must be in the single `app.py` file.
+- Tests must be placed in `tests/test_app.py`.
+
