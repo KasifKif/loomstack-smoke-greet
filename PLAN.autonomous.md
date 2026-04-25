@@ -55,3 +55,20 @@ details:
   - The test should assert that `greet()` returns the string "Hello, World!".
 ```
 
+
+<!-- Planner note GR-003 @ 2026-04-25T01:41:16.824282+00:00 -->
+<## Task: GR-003 Add a unit test for the `greet` function.
+body: |
+  The previous attempt to add a unit test failed, likely because the test file was not created. The goal is to create a test file and add a single test for the `greet` function.
+
+  **Plan:**
+  1.  Create the file `tests/test_app.py`.
+  2.  Import the `greet` function from `app`.
+  3.  Define a test function `test_greet`.
+  4.  Inside the test, assert that `greet('World')` returns `'Hello, World!'`.
+>
+
+<!-- conventions from GR-003 -->
+- Tests must be placed in `tests/test_app.py`.
+- Each PR should add just one function, in this case, one test function.
+
