@@ -40,3 +40,18 @@ body: |
 <!-- conventions from GR-002 -->
 - One function per PR.
 
+
+<!-- Planner note GR-003 @ 2026-04-25T01:40:44.662295+00:00 -->
+## Task: GR-004 Add a unit test for the `greet` function.
+---
+```yaml
+task: GR-004
+description: Add a unit test for the `greet` function.
+details:
+  - The previous attempt (GR-003) failed to create the test file.
+  - Create a new file at `tests/test_app.py`.
+  - Inside this file, import the `greet` function from `app.py`.
+  - Write a `pytest` test function named `test_greet`.
+  - The test should assert that `greet()` returns the string "Hello, World!".
+```
+
