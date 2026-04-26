@@ -1,0 +1,12 @@
+# Smoke-test project config — trivial caps, everything local-first.
+
+budget_daily_usd:
+  global: 5.00
+  code_worker: 0.00   # local Qwen — free
+  self_critic: 0.10   # gemini-2.5-flash — was Qwen pre-b2b20ef; flash is cheap (~$0.0002/critique)
+  researcher: 0.25
+  planner: 0.50
+  reviewer: 0.10
+  architect: 2.00
+
+max_diff_loc: 200
