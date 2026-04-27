@@ -10,3 +10,13 @@
 +`def greet(name: str) -> str:` and a trivial body that returns
 +`f"hi {name}"`. No tests yet — GR-003 adds those.
 +
+
+# 2026-04-26 20:14:09.035221
++Write tests/test_app.py with a pytest test that calls greet("world")
++and asserts the result equals "hi world". Keep it one test function.
++
+
+# 2026-04-26 20:14:09.035314
++Write tests/test_app.py with a pytest test that calls greet("world")
++and asserts the result equals "hi world". Keep it one test function.
++
