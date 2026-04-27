@@ -1,0 +1,27 @@
+# Smoke-test project config — trivial caps, everything local-first.
+
+budget_daily_usd:
+  global: 5.00
+  code_worker: 0.00   # local Qwen — free
+  self_critic: 0.10   # gemini-2.5-flash — was Qwen pre-b2b20ef; flash is cheap (~$0.0002/critique)
+  researcher: 0.25
+  planner: 0.50
+  reviewer: 0.10
+  architect: 2.00
+
+max_diff_loc: 200
+
+# Run pytest in each per-task worktree before Self-Critic and Planner so
+# their prompts get real test output. Lets ``tests_pass: unit`` acceptance
+# criteria evaluate to ``satisfied=true`` instead of "no test output, can't
+# verify." 30s cap is generous for a single-function unit test suite.
+#
+# ``|| [ $? -eq 5 ]`` swallows pytest's exit code 5 ("no tests collected")
+# and treats it as success. Early-stage tasks like GR-001 add app code
+# before any tests exist; pytest then runs, finds nothing, exits 5. That's
+# not a failure — it's "no tests to run yet." Without this normalization,
+# the Self-Critic reads "non-zero exit" as broken and verdicts ``fixup``
+# even when the diff matches the acceptance criteria.
+checks:
+  cmd: pytest -q || [ $? -eq 5 ]
+  timeout_s: 30
