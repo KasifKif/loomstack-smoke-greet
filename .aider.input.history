@@ -1,0 +1,12 @@
+
+# 2026-04-26 19:54:16.276042
++Create app.py at the repo root with a function signature
++`def greet(name: str) -> str:` and a trivial body that returns
++`f"hi {name}"`. No tests yet — GR-003 adds those.
++
+
+# 2026-04-26 19:54:16.276138
++Create app.py at the repo root with a function signature
++`def greet(name: str) -> str:` and a trivial body that returns
++`f"hi {name}"`. No tests yet — GR-003 adds those.
++
